@@ -59,7 +59,7 @@ export const Player: React.FC<Props> = ({
               width: 100%;
               height: 6px;
               transform-origin: left center;
-              background-color: #24292e;
+              background: linear-gradient(to right, #C7CEEA, #B5EAD7, #E2F0CB, #FFDAC1, #FFB7B2, #FF9AA2);
               animation: progress ${duration}ms linear;
               animation-delay: -${progress}ms;
             }
